@@ -1,5 +1,6 @@
 
 import { htmlTheme } from './html.js'
+import { formanticUi } from './formanticui.js'
 // import  { bootstrap2Theme } from  './bootstrap2'
 import { bootstrap3Theme } from './bootstrap3.js'
 import { bootstrap4Theme } from './bootstrap4.js'
@@ -12,6 +13,7 @@ import { tailwindTheme } from './tailwind.js'
 
 export const themes = {
   html: htmlTheme,
+  formanticui: formanticUi,
   // bootstrap2: bootstrap2Theme,
   bootstrap3: bootstrap3Theme,
   bootstrap4: bootstrap4Theme,
